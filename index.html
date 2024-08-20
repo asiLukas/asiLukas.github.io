@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Lukáš Zagorský is a dedicated Full-Stack Engineer with a passion for crafting innovative solutions. Explore projects, experience, and technologies.">
+  <meta name="keywords"
+    content="Lukáš Zagorský, Full-Stack Engineer, Software Development, Web Development, Backend Development, Frontend Development, Projects, Experience">
+  <meta property="og:title" content="Lukáš Zagorský - Full-Stack Engineer">
+  <meta property="og:description"
+    content="Lukáš Zagorský is a dedicated Full-Stack Engineer specializing in creating seamless user experiences and reliable backend functionalities.">
+  <title>Lukáš Zagorský</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="flex-wrapper">
+    <div class="container">
+      <header>
+        <h1 class="animated-heading">Lukáš Zagorský</h1>
+        <p>A dedicated and passionate Full-Stack Engineer with a strong enthusiasm for crafting
+          innovative solutions to complex digital challenges. Leveraging both backend
+          and frontend technologies to create seamless user experiences and reliable backend functionalities.</p>
+      </header>
+
+      <div class="main-content">
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="card">
+            <h3>Tekain</h3>
+            <p><strong><i>Winter 2022</i></strong></p>
+            <p>My first project with a separate backend and frontend. The application currently allows
+              adding / editing / removing posts and
+              includes a chat where users can enter a room code to join a chat room and communicate in real-time.
+              All messages are stored in a database, so upon rejoining a room, all previous messages are loaded. There
+              is also an option to chat while not being logged in as an anonymous.</p>
+            <a href="https://github.com/asiLukas/Tekain-frontend">FE source</a> ·
+            <a href="https://github.com/asiLukas/Tekain-backend">BE source</a>
+          </div>
+          <div class="card">
+            <h3>Bread Defense</h3>
+            <p><strong><i>Spring 2020</i></strong></p>
+            <p>A game where players must overcome waves of enemies and earn as much money as possible. The game is
+              developed in Python using the Pygame library.
+            </p>
+            <a href="https://asi-lukas.itch.io/bread-defense">Download here</a> ·
+            <a href="https://github.com/asiLukas/Bread_Defense">Source code</a>
+          </div>
+          <div class="card">
+            <h3>Initter</h3>
+            <p><strong><i>Fall 2020</i></strong></p>
+            <p>A small social network created in Python using the Django framework along with HTML/CSS/JS.
+            </p>
+            <a href="https://github.com/asiLukas/Initter">Source code</a>
+          </div>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+
+          <div class="card">
+            <h3>Full Stack Engineer</h3>
+            <p><strong><a href="https://www.ententee.com">Ententee</a></strong> · <em>June 2024 – Now</em></p>
+            <p>Currently working on a healthcare project for an American client as a Full-Stack Engineer, utilizing
+              Spring
+              Boot(Java) for the backend and React(TypeScript) for the frontend. My role involves designing, developing,
+              and maintaining tailored solutions to meet the client’s specific needs.</p>
+          </div>
+
+          <div class="card">
+            <h3>Back End Developer</h3>
+            <p><strong><a href="https://symmy.com">Symmy</a></strong> · <em>June 2022 – May 2024</em></p>
+            <p>I worked as a Python backend developer, occasionally using React. Symmy is an integration
+              platform for synchronizing data between e-commerce stores and ERP systems. I created several general
+              connectors for platforms like Shopify, Odoo... that are
+              are used by dozens of clients. Additionally, I developed the platform itself as part of a team of several
+              developers.</p>
+          </div>
+
+          <div class="card">
+            <h3>Python Engineer</h3>
+            <p><strong><a href="https://www.solidsun.cz">Sun Monitor</a></strong> · <em>December 2020 – December
+                2021</em></p>
+            <p>I worked in Python for various tasks such as testing, automation, and control using the Modbus
+              protocol.</p>
+          </div>
+
+        </section>
+      </div>
+      <section id="technologies">
+        <h2>Technologies</h2>
+        <div class="chart-container">
+          <canvas id="techChart"></canvas>
+        </div>
+      </section>
+
+    </div>
+    <footer>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/lukaszagorsky/"><img src="https://www.linkedin.com/favicon.ico"
+            alt="LinkedIn"></a>
+        |
+        <a href="https://github.com/asiLukas"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</html>
